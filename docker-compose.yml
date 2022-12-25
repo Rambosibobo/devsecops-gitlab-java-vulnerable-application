@@ -30,3 +30,5 @@ services:
 
   internal_site:
     build: internal_site
+    ports:
+      - 80:80
