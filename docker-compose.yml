@@ -25,6 +25,8 @@ services:
     environment:
       - POSTGRES_PASSWORD=vulnado
       - POSTGRES_DB=vulnado
+    ports:
+      - 5432:5432
 
   internal_site:
     build: internal_site
