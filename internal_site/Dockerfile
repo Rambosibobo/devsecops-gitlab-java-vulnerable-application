@@ -1,2 +1,2 @@
-FROM nginx:alpine
+FROM docker.io/nginx:alpine
 COPY . /usr/share/nginx/html
